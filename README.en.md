@@ -1,37 +1,37 @@
-# xt-grapes
 
-#### Description
-xt-grapes: 
-是一个可扩展、可适应并发控制框架，采用“葡萄藤”式结构设计：主进程是藤蔓（串），子进程如分支，线程如葡萄粒，实现动态创建与伸缩管理，适用于高并发场景的资源优化控制。
+# xt_grapes
 
-#### Software Architecture
-Software architecture description
+#### Introduction
+**xt_grapes** is a high-performance dynamic process and thread pool management framework implemented in C. It is designed to support elastic resource scheduling in high-concurrency production environments.
 
-#### Installation
+#### Architecture
+The framework adopts a “grapevine” structure: the main process acts as the vine, subprocesses are like branches, and threads resemble grapes. This design enables dynamic creation, scalable management, flexible expansion, and cooperative operation.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+ 
+## Key Features
 
-#### Instructions
+- 🚀 **Dynamic Scalability**: Automatically adjusts the number of processes and threads based on runtime configuration and system load.
+- ⚙️ **Unified Resource Management**: Unified process and thread pool management with cross-module scheduling capability.
+- 🧠 **Intelligent Scheduling Strategies**: Supports custom algorithms for concurrency monitoring and adaptive load balancing.
+- 🍇 **Grapelike Architecture**: Thread/process structure modeled as a grape bunch — main process as the stem, subprocesses and threads as grapes.
+- 🧩 **Modular and Embeddable**: Easy to embed into existing C-based applications, modular and refactor-friendly.
+- 🛡️ **Stable and Robust**: Production-ready with crash isolation and reliable resource management.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Suitable Use Cases
 
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+- High-concurrency C/C++ gateway-server applications
+- Background batch job schedulers
+- Container-friendly microservices with lightweight worker coordination
+- Multi-task execution engine for memory-constrained systems
 
 
-#### Gitee Feature
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## Contact and Contribute
+
+Contributions, feedback, and suggestions are warmly welcome!
+
+📧 **Author Email**: `whoxitengwho@outlook.com`  
+📌 Feel free to open [Issues]  or submit a Pull Request.
+
+---
+This project is open source under the Apache 2.0  License. Feel free to use and modify.
