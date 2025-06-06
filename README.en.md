@@ -7,7 +7,9 @@
 #### Architecture
 The framework adopts a “grapevine” structure: the main process acts as the vine, subprocesses are like branches, and threads resemble grapes. This design enables dynamic creation, scalable management, flexible expansion, and cooperative operation.
 
- 
+
+<img src="logo.png" width="300" height="280" alt="Logo">
+
 ## Key Features
 
 - 🚀 **Dynamic Scalability**: Automatically adjusts the number of processes and threads based on runtime configuration and system load.
