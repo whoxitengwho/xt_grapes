@@ -3,6 +3,8 @@
 *.ipr
 *.iws
 
+.DS_Store
+
 # Prerequisites
 *.d
 
